@@ -88,6 +88,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: -2;
 }
 
  /*     
@@ -146,12 +147,30 @@ body {
     background-color: #f2f2f291;
     color: #f56607;
 }
+
+#start-btn2 {
+    align-self: center;
+    background-color: #ffffff91;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    margin: -24px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#start-btn2:hover {
+    background-color: #f2f2f291;
+    color: #f56607;
+}
 /*
 .content{
     position: relative;
     z-index: 10;
 }
- */
+ 
 #experiences {
     font-size: 100%;
     letter-spacing: 2px;
@@ -179,13 +198,24 @@ body {
     color: #f56607;
 
 }
-
-.social-networks {
+*/
+span .social-networks {
     position: absolute;
-    z-index: 10;
+    z-index: 2;
     bottom: 20px;
     display: flex;
     color: #fff;
 }
 
+
+
+ul.social-networks {
+    z-index: 2;
+    position: absolute;
+}
+
+li.social-networks {
+    z-index: 2;
+    position: inherit;
+}
 
