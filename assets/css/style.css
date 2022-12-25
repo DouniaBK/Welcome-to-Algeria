@@ -180,4 +180,12 @@ body {
 
 }
 
+.social-networks {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    color: #fff;
+}
+
 
