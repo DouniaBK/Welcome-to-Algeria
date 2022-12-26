@@ -199,16 +199,10 @@ body {
 
 }
 */
-span .social-networks {
-    position: absolute;
-    z-index: 2;
-    bottom: 20px;
-    display: flex;
-    color: #fff;
-}
 
 
 
+/*
 ul.social-networks {
     z-index: 2;
     position: absolute;
@@ -217,5 +211,29 @@ ul.social-networks {
 li.social-networks {
     z-index: 2;
     position: inherit;
+}*/
+
+footer {
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    max-height: 10%;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.social-networks {
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5px;
+    color: #3a3a3a
 }
 
