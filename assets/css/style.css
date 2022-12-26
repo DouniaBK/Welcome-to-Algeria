@@ -10,7 +10,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color:#ffffff;
+    color:#232323;
 }
 
 
@@ -21,7 +21,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fff;
+    color: rgb(27, 27, 27);
 }
 
 #subtitle {
@@ -31,19 +31,14 @@ body {
     line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fff;
+    color: rgb(27, 27, 27);
     align-self: flex-start;
     margin-left: 2%;
 }
 
 #logo {
     text-align: left;
-    top: 7%;
-    left: 30%;
     margin-left: 2%;
-    margin-top: 5%;
-  
-
 }
 /*navigation links*/
 
@@ -71,7 +66,7 @@ body {
 }
 #menu a {
     text-decoration: none;
-    color:#ffffff;
+    color: rgb(27, 27, 27);
 }
 
 #menu a:hover {
@@ -91,33 +86,9 @@ body {
     z-index: -2;
 }
 
- /*     
-  {  width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    justify-content: center;
-    z-index: 0;
-    animation: change 5s infinite ease-in-out;*/
 
-/* animation zoom effects on loading page
-
- animation-name: sahara-zoom;
- animation-duration: 5s;
- animation-fill-mode:forwards;
-
-}
-
-*/
 .showcase {
     width: 100%;
-    height: 20%;
     position: absolute;
     top: 3%;
     left: 0px;
@@ -130,17 +101,70 @@ body {
     flex-direction: column;
 }
 
-#start-btn {
+
+#logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(27, 27, 27);
+}
+
+#subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(27, 27, 27);
+    align-self: flex-start;
+    margin-left: 2%;
+}
+
+/* Content of the home page*/
+
+#logo {
+    text-align: left;
+    margin-left: 2%;
+}
+.content {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+}
+.short-intro {
     align-self: center;
-    background-color: #ffffff91;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    background-color: #ffffff9c;
+    width: 45%;
+    padding: 16px;
+    border-radius: 20px;
+    margin-top: 100px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border: 1px solid #bbbbbb;
+    box-shadow: 7px 10px 22px -1px rgb(0 0 0 / 24%);
+
+}
+
+.short-intro p {
+    font-size: small;
+    font-weight: 600;
+    text-shadow: 0px 0px 6px white;
+}
+
+#start-btn {    
+    align-self: center;
+    padding: 5px 10px;
     border-radius: 10px;
-    margin: 50px;
+    margin: 14px;
     cursor: pointer;
     font-weight: 500;
+    background-color: #f8f8f891;
+    border: 1px solid #bbbbbb;
 }
 
 #start-btn:hover {
@@ -148,70 +172,7 @@ body {
     color: #f56607;
 }
 
-#start-btn2 {
-    align-self: center;
-    background-color: #ffffff91;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border-radius: 10px;
-    margin: -24px;
-    cursor: pointer;
-    font-weight: 500;
-}
-
-#start-btn2:hover {
-    background-color: #f2f2f291;
-    color: #f56607;
-}
-/*
-.content{
-    position: relative;
-    z-index: 10;
-}
- 
-#experiences {
-    font-size: 100%;
-    letter-spacing: 2px;
-
-}
-
-#experiences li {
-    float: left;
-    list-style-type: none;
-    margin-right: 30px;
-
-}
-#experiences a {
-    text-decoration: none;
-    color:#394149;
-    display: flex;
-    padding: 5%;
-    position: static;
-    width: fit-content;
-}
-
-#experiences a:hover {
-
-    border-bottom: 1px solid #f56607;
-    color: #f56607;
-
-}
-*/
-
-
-
-/*
-ul.social-networks {
-    z-index: 2;
-    position: absolute;
-}
-
-li.social-networks {
-    z-index: 2;
-    position: inherit;
-}*/
+/* footer and social media links*/
 
 footer {
     position:absolute;
@@ -219,15 +180,13 @@ footer {
     left: 0px;
     max-height: 10%;
     width: 100%;
-    list-style: none;
-    text-align: center;
 }
 
 .social-networks {
-    
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .social-networks i {
@@ -236,4 +195,18 @@ footer {
     padding: 5px;
     color: #3a3a3a
 }
+
+.social-networks li {
+    margin: 3px;
+}
+
+.social-networks li::marker {
+    content: none;
+}
+
+.copyright {
+    font-size: smaller;
+    color: #3a3a3a
+}
+
 
