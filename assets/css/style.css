@@ -265,7 +265,7 @@ iframe {
 */
 
 .destinations {
-    color: #394149;
+    color: #3a3a3a;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -275,8 +275,10 @@ iframe {
 
 #destination {
     width: 30%;
-    margin: 1rem
+    margin: 1rem;
 }
 
-
-
+.destination_image {
+    width: 100%;
+    height: fit-content;
+}
