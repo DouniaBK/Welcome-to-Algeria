@@ -8,6 +8,7 @@
 }
 
 body {
+    height: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #3a3a3a;
@@ -220,10 +221,12 @@ footer {
     flex-direction: column;
 }
 #hero-image {
+    background: url('../css/images/roadtrip_bg2.PNG') no repeat center center;
     min-height: 100%;
     min-width: 100%;
     background-size: cover;
     object-fit: cover;
+    position: fixed;
 }
 
 .background-wrapper {
@@ -231,22 +234,22 @@ footer {
     height:100%;
     overflow: hidden;
     z-index: -2;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
 }
 
 .roadtrip {
-    width: 80%;
-    display: flex;
+    width: 60%;
+    /*display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
-    background-color: #ffffffd6;
+    flex: 1;*/
+    background-color: #ffffffd8;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8rem;
-    border-radius: 0.5rem;
+    margin-top: 6rem;
+    border-radius: 2rem;
     padding: 3rem;
 }
 
@@ -276,9 +279,19 @@ iframe {
 #destination {
     width: 30%;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .destination_image {
+    object-fit: cover;
     width: 100%;
-    height: fit-content;
+    height: 100%;
+}
+
+#destination_image_wrapper {
+    height: 18rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
 }
