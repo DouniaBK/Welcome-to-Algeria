@@ -397,6 +397,10 @@ iframe {
 .map a {
     text-decoration: none;
     color:  #3a3a3a;
+    background-color: antiquewhite;
+    padding: 3px;
+    border-radius: 0rem;
+    border-color: #f56607;
 }
 
 .map a:hover {
@@ -404,4 +408,9 @@ iframe {
     border-bottom: 1px solid #f56607;
     color: #f56607;
 
+}
+.roadtrip-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
