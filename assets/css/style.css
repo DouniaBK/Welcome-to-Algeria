@@ -219,6 +219,8 @@ footer {
     color: #3a3a3a
 }
 
+/*roadtrip details page*/
+
 .header_roadtrip {
     margin-top: 0px;
     display: flex;
@@ -295,6 +297,7 @@ h3 {
     overflow: hidden;
 }
 
+/*the map page*/
 
 .roadtrip-map {
     width: 60%;
@@ -303,14 +306,12 @@ h3 {
     margin-right: auto;
     margin-top: 8rem;
     border-radius: 2rem;
-    padding: 6rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
+   
 }
-
-
 
 iframe {
     width: 100%;
@@ -349,8 +350,8 @@ iframe {
 }
 
 .itinerary a:hover {
-    border-bottom: 1px solid #52f507;
-    color: #07f52f;
+    border-bottom: 1px solid #f56607;
+    color: #f56607;
 }
 
 .map {
@@ -361,9 +362,7 @@ iframe {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3a3a3a;
-    /*align-self: flex-start;
-    margin-left: 2%;;
-    float: right;*/
+   
 }
 
 .map a {
@@ -377,7 +376,7 @@ iframe {
 
 
 .map a:hover {
-    border-bottom: 1px solid #f56607;
+    border-bottom: 1px #f56607;
     color: #f56607;
 }
 
@@ -388,14 +387,26 @@ iframe {
 }
 
 .map-header {
+    
     display: flex;
     flex-direction: row;
+    margin-bottom: -1.5rem;
+    align-items: baseline;
+    align-content: flex-start;
     justify-content: space-between;
-    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+
 }
 
 #map {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#subtitle i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5px;
+    color: #3a3a3a
 }
