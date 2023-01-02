@@ -333,8 +333,6 @@ iframe {
     letter-spacing: 2px;
     color: #3a3a3a;
     align-self: flex-start;
-    /* margin-left: 55%; */
-    /* float: right; */
     margin: 0.3rem;
 }
 
@@ -343,10 +341,9 @@ iframe {
     text-decoration: none;
     color: #3a3a3a;
     background-color: #217fc94f;
-    padding: 4px 28px;
+    padding: 3px;
     padding: -0.4rem;
-    /* margin: 30px; */
-    border-radius: 34px;
+    margin: -221px;
 }
 
 .itinerary a:hover {
@@ -404,9 +401,18 @@ iframe {
     justify-content: space-between;
 }
 
-#subtitle i {
-    font-size: 160%;
+.map-header i {
+    font-size: large;
     margin: 1%;
     padding: 5px;
-    color: #3a3a3a
+    color: #3a3a3a;
+    height: 20px;
+}
+.map-header i::marker {
+    content: icon;
+}
+
+.header_col_left{
+    display:flex;
+    flex-direction: row;
 }
