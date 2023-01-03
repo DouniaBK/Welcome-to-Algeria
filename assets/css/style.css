@@ -412,7 +412,28 @@ iframe {
     content: icon;
 }
 
-.header_col_left{
-    display:flex;
-    flex-direction: row;
+/*gallery*/
+
+#showcase-gallery {
+    background-color: #bad1e8;
+    height: 243px;
+    padding: 59px;
+
+}
+
+img {
+    width: 100%;
+    height: 298px;
+  
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
