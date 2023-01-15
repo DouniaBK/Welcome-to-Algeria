@@ -98,7 +98,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    color: #394149;
+    color: #f56607;
     z-index: 2;
     flex-direction: column;
 }
@@ -438,7 +438,29 @@ img {
     width: 100%;
 }
 
+/* information */
+
 .roadtrip-information {
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.863);
+    width: 60%;
+    margin-top: 100px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 10px 22px -1px;
+    text-shadow: white 0px 0px 6px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-image: initial;
+    padding: 35px;
+}
+
+/* contact */
+
+.contact-us {
     align-self: center;
     background-color: rgba(255, 255, 255, 0.863);
     width: 60%;
