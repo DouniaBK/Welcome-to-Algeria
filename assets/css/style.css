@@ -477,3 +477,39 @@ img {
     border-image: initial;
     padding: 35px;
 }
+
+.contact_col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+}
+
+.contact_row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+
+.inquiry {
+    min-width: 100%;
+}
+
+.contact_line {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.contact-header{
+    margin-bottom: 0.5rem;
+}
+
+.contact_input{
+    display: flex;
+    padding: 0.1rem 0.3rem;
+    margin-left: auto;
+}
+
+.contact_input_wrapper{
+    align-self:flex-end;
+}
+
