@@ -131,30 +131,32 @@ body {
     text-align: left;
     margin-left: 2%;
 }
+
 .content {
     margin-top: 7%;
     display: flex;
     flex-direction: column;
 }
+
+
 .short-intro {
     align-self: center;
     background-color: #ffffff9c;
     width: 45%;
-    padding: 16px;
+    padding: 51px;
     border-radius: 20px;
     margin-top: 100px;
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    color: black;
+    color: #3a3a3a;
     border: 1px solid #bbbbbb;
     box-shadow: 7px 10px 22px -1px rgb(0 0 0 / 24%);
 
 }
 
 .short-intro p {
-    font-size: small;
-    font-weight: 600;
+    font-weight: 500;
     text-shadow: 0px 0px 6px white;
 }
 
@@ -415,16 +417,32 @@ iframe {
 /*gallery*/
 
 #showcase-gallery {
-    background-color: #bad1e8;
-    height: 243px;
-    padding: 59px;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    display: flex;
+    justify-content: space-between;
+    color: #f56607;
+    flex-direction: column;
+    padding: 2rem;
 
 }
 
+.showcase-gallery {
+    padding-top: 3rem;
+}
+
+
+
+.content.gallery {
+    padding: 4rem;
+    background: #ffffffe3;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
 img {
     width: 100%;
-    height: 298px;
-  
+    /*height: 298px;*/
 }
 
 #photos {
@@ -503,13 +521,35 @@ img {
     margin-bottom: 0.5rem;
 }
 
-.contact_input{
+.contact_input {
     display: flex;
-    padding: 0.1rem 0.3rem;
+    padding: 0.10000000000000009rem 1.3000000000000007rem;
     margin-left: auto;
+    font-weight: 500;
+    font-size: large;
 }
 
 .contact_input_wrapper{
     align-self:flex-end;
+}
+
+/*Form submission*/
+
+.message-sent {
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.863);
+    width: 60%;
+    margin-top: 100px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 10px 22px -1px;
+    text-shadow: white 0px 0px 6px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-image: initial;
+    padding: 35px;
 }
 
