@@ -455,6 +455,16 @@ img {
     width: 100%;
 }
 
+footer-gallery {
+   
+    bottom: -259px;
+    left: 0px;
+    max-height: 20%;
+    width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 /* information */
 
 .roadtrip-information {
