@@ -78,7 +78,7 @@ body {
 }
 
 .video {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -183,8 +183,8 @@ body {
 /* footer and social media links*/
 
 footer {
-    position: absolute;
-    bottom: -259px;
+    position: fixed;
+    bottom: 2%;
     left: 0px;
     max-height: 20%;
     width: 100%;
