@@ -62,7 +62,7 @@ body {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 1rem;
 
 }
 #menu a {
@@ -78,7 +78,7 @@ body {
 }
 
 .video {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -167,23 +167,38 @@ body {
     cursor: pointer;
     font-weight: 500;
     background-color: #f8f8f891;
-    border: 1px solid #bbbbbb;
+    
     
 }
 
 #start-btn :hover {
-    background-color: #f2f2f291;
-     color:  #f56607;
+  
+    color: #3a3a3a;
+    border-bottom: 1px solid #f56607;
   
 }
 
 #start-btn a {
    text-decoration: none; 
+   color: #f56607;
 }
+
+
+
+.footer-index {
+    position: fixed;
+    bottom: 2%;
+    left: 0px;
+    max-height: 20%;
+    width: 100%;
+
+}
+
+
 /* footer and social media links*/
 
 footer {
-    position: fixed;
+    
     bottom: 2%;
     left: 0px;
     max-height: 20%;
@@ -191,7 +206,6 @@ footer {
     font-size: larger;
     font-weight: bolder;
 }
-
 
 .social-networks {
     display: flex;
@@ -248,10 +262,6 @@ footer {
 
 .roadtrip {
     width: 60%;
-    /*display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;*/
     background-color: #ffffffb8;
     margin-left: auto;
     margin-right: auto;
@@ -340,8 +350,8 @@ iframe {
 
 .itinerary a {
     text-decoration: none;
-    color: #3a3a3a;
-    background-color: #217fc94f;
+    color: #e5610a;
+    background-color: #d6d6d775;
     padding: 3px;
     padding: -0.4rem;
     margin: -221px;
@@ -365,16 +375,16 @@ iframe {
 
 .map a {
     text-decoration: none;
-    color: #3a3a3a;
-    background-color: #217fc94f;
-    padding: 3px;
-    padding: -0.4rem;
+    color: #e5610a;
+    background-color: #d6d6d775;
+    padding: 8px;
+    padding: -1.4rem;
     margin: 30px;
 }
 
 
 .map a:hover {
-    border-bottom: 1px #f56607;
+    border-bottom: 1px solid #f56607;
     color: #f56607;
 }
 
@@ -402,13 +412,7 @@ iframe {
     justify-content: space-between;
 }
 
-.map-header i {
-    font-size: large;
-    margin: 1%;
-    padding: 5px;
-    color: #3a3a3a;
-    height: 20px;
-}
+
 .map-header i::marker {
     content: icon;
 }
@@ -447,7 +451,7 @@ img {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 2;
     column-gap: 0;
 }
 
@@ -455,15 +459,6 @@ img {
     width: 100%;
 }
 
-footer-gallery {
-   
-    bottom: -259px;
-    left: 0px;
-    max-height: 20%;
-    width: 100%;
-    font-size: larger;
-    font-weight: bolder;
-}
 
 /* information */
 
@@ -483,6 +478,16 @@ footer-gallery {
     border-color: rgb(187, 187, 187);
     border-image: initial;
     padding: 35px;
+}
+
+.footer-information {
+   
+    bottom: 2%;
+    left: 0px;
+    max-height: 20%;
+    width: 100%;
+
+    
 }
 
 /* contact */
@@ -536,10 +541,30 @@ footer-gallery {
     margin-left: auto;
     font-weight: 500;
     font-size: large;
+    border: #e5610a;
+    background-color: rgb(255 255 255);
+    color: #f56607;
+    border-radius: 0.5rem;
+}
+
+.contact_input:hover {
+    color: #3a3a3a;
+    text-decoration: none;
+    background-color: #bbbbbb; 
+
 }
 
 .contact_input_wrapper{
     align-self:flex-end;
+}
+
+.footer-contact {
+    position: fixed;
+    bottom: 2%;
+    left: 0px;
+    max-height: 20%;
+    width: 100%;
+ 
 }
 
 /*Form submission*/
