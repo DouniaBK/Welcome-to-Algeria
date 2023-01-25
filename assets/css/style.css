@@ -9,13 +9,11 @@
 
 body {
     height: 100%;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #3a3a3a;
 }
 
 #logo {
-    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: 500;
     text-transform: uppercase;
@@ -25,8 +23,7 @@ body {
     margin-left: 2%;
 }
 
-#subtitle {
-    font-family: 'Poppins', sans-serif;
+#subtitle_logo {
     font-size: large;
     font-weight: 500;
     letter-spacing: 2px;
@@ -36,6 +33,15 @@ body {
     margin: 0.4rem;
 }
 
+#subtitle {
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #3a3a3a;
+    align-self: flex-start;
+    margin-left: 2%;
+    margin: 0.4rem;
+}
 
 /*navigation links*/
 
@@ -44,15 +50,11 @@ body {
 }
 
 #menu {
-    
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    font-weight: 500;
+    font-size: 1.2em;
+    font-weight: 600;
     line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
-
 }
 
 #menu li {
@@ -88,14 +90,15 @@ body {
 .showcase {
     width: 100%;
     position: absolute;
-    top: 1.5rem;
+    top: 2rem;
     left: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     color: #f56607;
     z-index: 2;
-    flex-direction: column;
+    padding-right: 1rem;
 }
 
 
@@ -118,7 +121,7 @@ body {
     max-width: 850px;
     padding: 51px;
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 15%;
     font-weight: 500;
     display: flex;
     flex-direction: column;
@@ -238,7 +241,13 @@ footer {
 
 h3 {
     color: #3a3a3a;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
+} 
+
+a {
+    text-decoration: none;
+    color:  #3a3a3a;
+    line-height: 1.2rem;
 }
 
 
@@ -332,7 +341,6 @@ iframe {
 
 
 .itinerary {
-    font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 500;
     line-height: 1em;
