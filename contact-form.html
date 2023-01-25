@@ -23,22 +23,28 @@
         <div class="showcase">
             <nav id="navigation">
                 <ul id="menu">
-
                     <li>  
                         <a href="contact-form.html">Contact</a>
                     </li>
-                        
+                    
                     <li>
                         <a href="information.html">Information</a>
                     
                     </li>
+
                     <li>
                         <a href="gallery.html">Gallery</a>
                     </li>
+                    
+                    <li>
+                        <a href="adventure.html">Destinations</a>
+                    
+                    </li> 
+
                     <li>
                         <a href="index.html">Home</a>
                     
-                    </li>  
+                    </li>   
                 </ul>
             </nav>   
         </div>
@@ -46,35 +52,31 @@
 
     <div class="content">
         <h1 id="logo">Welcome to Algeria</h1>
-        <h2 id="subtitle">The Land of endless Sunshine, history and Sahara Adventures</h2>
-        
-            <div class="contact-us">
+        <h2 id="subtitle">Where your next adventure awaits</h2>
+            <form>
+            <div class="content_inner">
               <form action="form-submission.html">
                 <h2 class="contact-header">
                     Contact us 
                 </h2>
+            
+                    <label class="contact_line" for="fname">First Name</label>
+                    <input class="contact_line" type="text" id="fname" name="firstname" placeholder="Your name..">
                 
-                    <div class="contact_row">
-                        <div class="contact_col">
-                            <label class="contact_line" for="fname">First Name</label>
-                            <label class="contact_line" for="lname">Last Name</label>
-                            <label class="contact_line" for="email">Email Address</label>
-                        </div>
-                        <div class="contact_col">
-                            <input class="contact_line" id="fname" type="text" name="first_name" required>
-                            <input class="contact_line" id="lname" type="text" name="last_name" required>
-                            <input class="contact_line" id="email" type="email" name="email_address" required>
-                        </div>
-                    </div>  
-                 
-                    <label for="inquiry">Message</label>
-                    <br>
-                    <textarea name="inquiry" class="inquiry" id="inquiry" placeholder="Sahara roadtrip awaits! Get in touch and we will contact you within 24 hours with more information."
+                    <label  class="contact_line" for="lname">Last Name</label>
+                    <input  class="contact_line" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label class="contact_line" for="email">Email Address</label>
+                    <input class="contact_line" id="email" type="email" name="email_address" required>
+
+                    <label class="inquiry" for="inquiry">Message</label>
+                    <textarea name="inquiry" class="inquiry" id="inquiry" placeholder="Sahara roadtrip awaits! Get in touch for more information and we will contact you with a tailored plan within 24 hours."
                     col="150"rows="10"></textarea>
                
                     <input class="contact_input" type="submit" value="Send">
 
               </form> 
+
 
             </div>
     </div>

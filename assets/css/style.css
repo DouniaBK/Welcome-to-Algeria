@@ -14,8 +14,6 @@ body {
     color: #3a3a3a;
 }
 
-
-
 #logo {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -23,13 +21,15 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3a3a3a;
+    text-align: left;
+    margin-left: 2%;
 }
 
 #subtitle {
     font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
     color: #3a3a3a;
     align-self: flex-start;
@@ -37,10 +37,7 @@ body {
     margin: 0.4rem;
 }
 
-#logo {
-    text-align: left;
-    margin-left: 2%;
-}
+
 /*navigation links*/
 
 #navigation {
@@ -68,6 +65,7 @@ body {
 #menu a {
     text-decoration: none;
     color:  #3a3a3a;
+    line-height: 1.2rem;
 }
 
 #menu a:hover {
@@ -91,9 +89,8 @@ body {
 .showcase {
     width: 100%;
     position: absolute;
-    top: 3%;
+    top: 1.5rem;
     left: 0px;
-    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -103,14 +100,6 @@ body {
 }
 
 
-#logo {
-    font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:  #3a3a3a;
-}
 
 #subtitle {
     font-family: 'Poppins', sans-serif;
@@ -126,13 +115,9 @@ body {
 
 /* Content of the home page*/
 
-#logo {
-    text-align: left;
-    margin-left: 2%;
-}
 
 .content {
-    margin-top: 7%;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
 }
@@ -142,6 +127,8 @@ body {
     align-self: center;
     background-color: #ffffff9c;
     width: 45%;
+    min-width: 700px;
+    max-width: 850px;
     padding: 51px;
     border-radius: 20px;
     margin-top: 100px;
@@ -198,9 +185,7 @@ body {
 /* footer and social media links*/
 
 footer {
-    
-    bottom: 2%;
-    left: 0px;
+    margin-top: 1rem;
     max-height: 20%;
     width: 100%;
     font-size: larger;
@@ -240,8 +225,9 @@ footer {
     margin-top: 0px;
     display: flex;
     flex-direction: column;
+    
 }
-#hero-image {
+/* #hero-image {
     background: url('../css/images/roadtrip_bg2.PNG') no repeat center center;
     min-height: 100%;
     
@@ -258,17 +244,28 @@ footer {
     position: fixed;
     left: 0;
     top: 0;
-}
+}*/
 
-.roadtrip {
-    width: 60%;
-    background-color: #ffffffb8;
+.content_inner {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
-    border-radius: 2rem;
-    padding: 2rem;
-
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.863);
+    width: 60%;
+    margin-top: 100px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 10px 22px -1px;
+    text-shadow: white 0px 0px 6px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-image: initial;
+    padding: 35px;
+    max-width: 1200px;
+    min-width: 992px;
 }
 
 h3 {
@@ -286,6 +283,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+    text-align: justify;
 }
 
 #destination {
@@ -343,7 +341,6 @@ iframe {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3a3a3a;
-    align-self: flex-start;
     margin: 0.3rem;
 }
 
@@ -351,15 +348,12 @@ iframe {
 .itinerary a {
     text-decoration: none;
     color: #e5610a;
-    background-color: #d6d6d775;
-    padding: 3px;
-    padding: -0.4rem;
-    margin: -221px;
+    
 }
 
 .itinerary a:hover {
     border-bottom: 1px solid #f56607;
-    color: #f56607;
+    color: #3a3a3a;
 }
 
 .map {
@@ -376,40 +370,28 @@ iframe {
 .map a {
     text-decoration: none;
     color: #e5610a;
-    background-color: #d6d6d775;
-    padding: 8px;
-    padding: -1.4rem;
-    margin: 30px;
 }
 
 
 .map a:hover {
     border-bottom: 1px solid #f56607;
-    color: #f56607;
+    color: #3a3a3a;
 }
 
 .roadtrip-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.map-header {
+    background-color: #f566072e;
+    padding: 1rem;
     
-    display: flex;
-    flex-direction: row;
-    margin-bottom: -1.5rem;
-    align-items: baseline;
-    align-content: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
 }
 
 #map {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1rem 0 0 0;
 }
 
 
@@ -419,29 +401,14 @@ iframe {
 
 /*gallery*/
 
-#showcase-gallery {
-    width: 100%;
-    position: absolute;
-    top: 5%;
-    display: flex;
-    justify-content: space-between;
-    color: #f56607;
-    flex-direction: column;
-    padding: 2rem;
-
-}
-
-.showcase-gallery {
-    padding-top: 3rem;
-}
-
-
-
-.content.gallery {
-    padding: 4rem;
-    background: #ffffffe3;
-    margin-left: 3rem;
-    margin-right: 3rem;
+#information-title-gallery {
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #f566072e;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 img {
     width: 100%;
@@ -462,24 +429,6 @@ img {
 
 /* information */
 
-.roadtrip-information {
-    align-self: center;
-    background-color: rgba(255, 255, 255, 0.863);
-    width: 60%;
-    margin-top: 100px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.24) 7px 10px 22px -1px;
-    text-shadow: white 0px 0px 6px;
-    border-radius: 20px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(187, 187, 187);
-    border-image: initial;
-    padding: 35px;
-    max-width: 1000px;
-}
 
 .footer-information {
    
@@ -517,74 +466,46 @@ img {
 #information-title {
     text-align: center;
     margin: 2rem;
-}
-/* contact */
-
-.contact-us {
-    align-self: center;
-    background-color: rgba(255, 255, 255, 0.863);
-    width: 60%;
-    margin-top: 100px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.24) 7px 10px 22px -1px;
-    text-shadow: white 0px 0px 6px;
-    border-radius: 20px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(187, 187, 187);
-    border-image: initial;
-    padding: 35px;
+    
 }
 
-.contact_col {
-    display: flex;
-    flex-direction: column;
-    margin-right: 0.5rem;
-}
+/* contact form */
 
-.contact_row {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 0.5rem;
-}
 
 .inquiry {
     min-width: 100%;
+    padding: 0.3rem;
 }
 
 .contact_line {
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
+    padding: 0.3rem;
 }
 
 .contact-header{
-    margin-bottom: 0.5rem;
+    background-color: #f566072e;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .contact_input {
-    display: flex;
-    padding: 0.10000000000000009rem 1.3000000000000007rem;
+    width: 20%;
+    background-color: #f56607f5;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
     margin-left: auto;
     font-weight: 500;
     font-size: large;
     border: #e5610a;
-    background-color: rgb(255 255 255);
-    color: #f56607;
     border-radius: 0.5rem;
+    margin-top: 0.3rem;
 }
 
-.contact_input:hover {
-    color: #3a3a3a;
-    text-decoration: none;
-    background-color: #bbbbbb; 
 
-}
-
-.contact_input_wrapper{
-    align-self:flex-end;
-}
 
 .footer-contact {
     position: fixed;
@@ -595,21 +516,50 @@ img {
  
 }
 
-/*Form submission*/
 
-.message-received {
-    margin-top: 139px;
-    display: flex;
-    align-self: center;
-    background-color: rgba(255, 255, 255, 0.863);
-    width: 50%;
-    margin-top: 251px;
-    margin-inline: auto;
-    display: flex;
-    box-shadow: rgb(0 0 0 / 24%) 7px 10px 22px -1px;
-    border-radius: 39px;
-    padding: 63px;
-    justify-content: space-evenly;
-    align-items: center;
+@media only screen and (max-width: 600px) {
+    #menu {
+        font-size: 0.8em;
+    }
+    #logo {
+        font-size: 30px;
+    }
+    #subtitle {
+        font-size: small !important;
+    }
+    .content_inner {
+        padding: 10px;
+    }
 }
 
+@media only screen and (max-width: 768px) {
+    .short-intro {
+        width: 95%;
+        min-width: 1px;
+        max-width: none;
+        text-align: justify;
+        padding: 24px;
+    }
+    #destination {
+        width: 90% !important;
+    }
+    #subtitle {
+        font-size: medium;
+    }
+    #photos {
+        column-count: 1;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #destination {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .content_inner {
+        width: 95%;
+        min-width: 1px;
+    }
+}
