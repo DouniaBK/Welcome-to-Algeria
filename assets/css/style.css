@@ -29,7 +29,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: large;
     font-weight: 500;
-    text-transform: capitalize;
     letter-spacing: 2px;
     color: #3a3a3a;
     align-self: flex-start;
@@ -100,18 +99,6 @@ body {
 }
 
 
-
-#subtitle {
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    font-weight: 500;
-    line-height: 1em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:  #3a3a3a;
-    align-self: flex-start;
-    margin-left: 2%;
-}
 
 /* Content of the home page*/
 
@@ -227,24 +214,6 @@ footer {
     flex-direction: column;
     
 }
-/* #hero-image {
-    background: url('../css/images/roadtrip_bg2.PNG') no repeat center center;
-    min-height: 100%;
-    
-    background-size: cover;
-    object-fit: cover;
-    position: fixed;
-}
-
-.background-wrapper {
-    width: 100%;
-    height: 60px;
-    overflow: hidden;
-    z-index: -2;
-    position: fixed;
-    left: 0;
-    top: 0;
-}*/
 
 .content_inner {
     margin-left: auto;
@@ -253,7 +222,6 @@ footer {
     background-color: rgba(255, 255, 255, 0.863);
     width: 60%;
     margin-top: 100px;
-    font-weight: 500;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 7px 10px 22px -1px;
@@ -271,8 +239,6 @@ footer {
 h3 {
     color: #3a3a3a;
     margin-bottom: 4px;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -305,6 +271,38 @@ h3 {
     border-radius: 2rem;
     overflow: hidden;
 }
+
+.map {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 2%;
+    letter-spacing: 2px;
+}
+
+.map a {
+    text-decoration: none;
+    color: #e5610a;
+}
+
+.map i {
+    color: #e5610a;
+    margin-right: 0.5rem;
+}
+
+
+.map a:hover {
+    border-bottom: 1px solid #f56607;
+    color: #3a3a3a;
+}
+
+.map-header i::marker {
+    content: icon;
+}
+
 
 /*the map page*/
 
@@ -356,28 +354,6 @@ iframe {
     color: #3a3a3a;
 }
 
-.map {
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    font-weight: 500;
-    line-height: 1em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #3a3a3a;
-   
-}
-
-.map a {
-    text-decoration: none;
-    color: #e5610a;
-}
-
-
-.map a:hover {
-    border-bottom: 1px solid #f56607;
-    color: #3a3a3a;
-}
-
 .roadtrip-header {
     display: flex;
     flex-direction: row;
@@ -395,10 +371,6 @@ iframe {
 }
 
 
-.map-header i::marker {
-    content: icon;
-}
-
 /*gallery*/
 
 #information-title-gallery {
@@ -410,6 +382,7 @@ iframe {
     font-weight: 600;
     text-transform: uppercase;
 }
+
 img {
     width: 100%;
    
@@ -469,6 +442,8 @@ img {
     
 }
 
+
+
 /* contact form */
 
 
@@ -522,14 +497,33 @@ img {
         font-size: 0.8em;
     }
     #logo {
-        font-size: 30px;
+        font-size: 35px;
     }
     #subtitle {
-        font-size: small !important;
+        /*font-size: small !important;*/
     }
     .content_inner {
         padding: 10px;
     }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    .content li {
+        font-size: 0.9em;
+    }
+    .map {
+        font-size: 15px;
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -548,6 +542,9 @@ img {
     }
     #photos {
         column-count: 1;
+    }
+    h2 {
+        font-size: 1.3em;
     }
 }
 
