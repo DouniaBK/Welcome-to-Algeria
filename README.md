@@ -145,6 +145,33 @@ The business goals of the Welcome to Algeria project are:
   * a brief description of the expertese of the team welcoming and guiding the travelers in the desert to insure their safety and gain their trust.
   * Minimal, transparent and professional design to inspire trust in the expert team organizing this roadtrip
 
+# Technologies
+
+## languages
+
+## Libraries
+
+### Google Fonts
+ * Font Styles.
+
+### Fontawesome
+ * Used for icons
+
+## Platforms
+
+### Github
+ * Storing code remotely and deployment.
+### Gitpod
+ * IDE for project development.
+
+### Other Tools
+  1. Figma
+     * To create wireframes
+  2. Favicon Generator
+     * to create a favicon
+  3. Canva
+     * To create a Logo 
+# Testing
 
 
 

@@ -57,7 +57,7 @@ body {
 }
 
 #menu {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
     line-height: 1em;
     text-transform: uppercase;
@@ -127,7 +127,7 @@ body {
     min-width: 700px;
     max-width: 850px;
     padding: 51px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 15%;
     font-weight: 500;
     display: flex;
@@ -169,19 +169,17 @@ body {
 
 
 
-.footer-index {
-    position: fixed;
-    bottom: 2%;
-    left: 0px;
-    max-height: 20%;
-    width: 100%;
-
-}
 
 
 /* footer and social media links*/
 
 footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
     margin-top: 1rem;
     max-height: 20%;
     width: 100%;
@@ -189,14 +187,11 @@ footer {
     font-weight: bolder;
 }
 
-.footer-inner {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.footer-index {
+    position: fixed;
+    bottom: 2%;
+    left: 0px;
 }
-
 
 .social-networks {
     display: flex;
@@ -221,7 +216,7 @@ footer {
 }
 
 .copyright {
-    font-size: smaller;
+    font-size: 0.9rem;
     color: #3a3a3a
 }
 
@@ -245,7 +240,7 @@ footer {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 7px 10px 22px -1px;
     /*text-shadow: white 0px 0px 6px;*/
-    border-radius: 15px;
+    border-radius: 20px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(187, 187, 187);
@@ -490,7 +485,6 @@ img {
 }
 
 .contact_input {
-    width: 20%;
     background-color: #f56607f5;
     color: white;
     padding: 7px 20px;
@@ -502,8 +496,6 @@ img {
     border-radius: 0.5rem;
     margin-top: 0.3rem;
 }
-
-
 
 .footer-contact {
     position: fixed;
@@ -540,11 +532,9 @@ img {
     .map {
         font-size: 15px;
     }
-    .footer-inner {
+    footer {
         flex-direction: column;
     }
-    
-    
 }
 
 @media only screen and (max-width: 768px) {
@@ -577,9 +567,12 @@ img {
         top: 1rem;
     }
     .content {
-        margin-top: 6rem;
+        margin-top: 7rem;
     }
     .content_inner {
+        border-radius: 1vw;
+    }
+    .short-intro {
         border-radius: 1vw;
     }
 }
