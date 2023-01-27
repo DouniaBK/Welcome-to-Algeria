@@ -47,6 +47,7 @@ body {
 
 #navigation {
     align-self: flex-end;
+    padding: 1rem;
 }
 
 #menu {
@@ -90,24 +91,22 @@ body {
 .showcase {
     width: 100%;
     position: absolute;
-    top: 2rem;
+    top: 5rem;
     left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    color: #f56607;
     z-index: 2;
     padding-right: 1rem;
+    background-color: #ffffff1a;
 }
 
 
 
 /* Content of the home page*/
-
-
 .content {
-    margin-top: 5rem;
+    margin-top: 15rem;
     display: flex;
     flex-direction: column;
 }
@@ -500,12 +499,6 @@ img {
 
 
 @media only screen and (max-width: 600px) {
-    #menu {
-        font-size: 0.8em;
-    }
-    #logo {
-        font-size: 35px;
-    }
     #subtitle {
         /*font-size: small !important;*/
     }
@@ -552,6 +545,15 @@ img {
     }
     h2 {
         font-size: 1.3em;
+    }
+    #logo {
+        font-size: 35px;
+    }
+    #menu {
+        font-size: 0.8em;
+    }
+    .showcase {
+        top: 1rem;
     }
 }
 

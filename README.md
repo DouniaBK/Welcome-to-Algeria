@@ -80,6 +80,7 @@ The business goals of the Welcome to Algeria project are:
 # Features
 
 ## Navbar
+
 ## Logo
 ## Footer
 ## index page
