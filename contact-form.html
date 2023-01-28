@@ -58,6 +58,26 @@
         
             <form>
             <div class="content_inner">
+
+                <div class="camping"> 
+                
+                    <h2 class="contact-header"> About Us</h2>
+                    <img class="camping-img" src="./assets/css/images/Team.jpg" alt="tuareg team sitting around the fire in the desert">
+                    <p class="camping-p "> Our team of Sahara guides experts will be guiding you accross the Sahara desert, the place they are passionate about and desperately trying to protect with sustainable tourism.
+                        Our friendly team of experts will make sure that your roadtrip is safe, confortable and fun.
+                        Our experts will provide you with all the necessary information about the activities and visits planned during your roadtrip as well as a unique insight into Tuaregs' lifestyle.
+                        The members of the team that will welcome you and accompany you in this extraordinary adventure are:
+                    </p>
+                    <ul class="activity-list">
+                        <li>As many drivers as cars</li>
+                        <li>A cook</li>
+                        <li>A certified guide</li>
+                        <li>A camp assitant</li>
+                        
+                    </ul>
+
+               </div>
+
               <form action="/contact-form.html">
                 <h2 class="contact-header">
                     Contact us 
@@ -70,12 +90,15 @@
                     <input  class="contact_line" type="text" id="lname" name="lastname" placeholder="Your last name..">
 
                     <label class="contact_line" for="email">Email Address</label>
-                    <input class="contact_line" id="email" type="email" name="email_address" required>
+                    <input class="contact_line" type="email" id="email"name="email_address" required>
 
                     <label class="inquiry" for="inquiry">Message</label>
                     <textarea name="inquiry" class="inquiry" id="inquiry" placeholder="Sahara roadtrip awaits! Get in touch for more information and we will contact you with a tailored plan within 24 hours."
                     col="150"rows="10"></textarea>
-               
+                     <span>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">I agree to subscribe to your newsletter and get special offers.</label>
+                    </span>
                     <input class="contact_input" type="submit" value="Send">
 
               </form> 
