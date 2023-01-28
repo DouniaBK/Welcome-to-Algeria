@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Algeria, a webpage that highlights the best touristic spots to see and experiences to have when visiting this mysterious and incredible country.">
-    <meta name="description" content="Welcome to Algeria, tips and highlights of the best things to do in Algeria">
+    <meta name="description" content="Welcome to Algeria, is a travel agency that offers an extraordinary roadtrip across the mysterious and incredible Sahara desert.">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Welcome to Algeria</title>
@@ -56,12 +55,13 @@
 
     <div class="content">
         
-            <form>
+        <form action="/form-submission.html" method="get">
             <div class="content_inner">
+                <h1 id="information-title">About Us</h1>
 
                 <div class="camping"> 
                 
-                    <h2 class="contact-header"> About Us</h2>
+                    <h2 class="contact-header">Meet the Team</h2>
                     <img class="camping-img" src="./assets/css/images/Team.jpg" alt="tuareg team sitting around the fire in the desert">
                     <p class="camping-p "> Our team of Sahara guides experts will be guiding you accross the Sahara desert, the place they are passionate about and desperately trying to protect with sustainable tourism.
                         Our friendly team of experts will make sure that your roadtrip is safe, confortable and fun.
@@ -77,10 +77,12 @@
                     </ul>
 
                </div>
+           
 
-              <form action="/contact-form.html">
+              
+             
                 <h2 class="contact-header">
-                    Contact us 
+                    Contact Us 
                 </h2>
             
                     <label class="contact_line" for="fname">First Name</label>
@@ -90,46 +92,47 @@
                     <input  class="contact_line" type="text" id="lname" name="lastname" placeholder="Your last name..">
 
                     <label class="contact_line" for="email">Email Address</label>
-                    <input class="contact_line" type="email" id="email"name="email_address" required>
+                    <input class="contact_line" type="email" id="email" name="email_address" required>
 
                     <label class="inquiry" for="inquiry">Message</label>
                     <textarea name="inquiry" class="inquiry" id="inquiry" placeholder="Sahara roadtrip awaits! Get in touch for more information and we will contact you with a tailored plan within 24 hours."
-                    col="150"rows="10"></textarea>
+                    cols ="150" rows="10"></textarea>
                      <span>
-                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="no">
                     <label for="newsletter">I agree to subscribe to your newsletter and get special offers.</label>
                     </span>
                     <input class="contact_input" type="submit" value="Send">
 
-              </form> 
-
-
             </div>
+        </form>
     </div>
+    
+
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
+            </li> 
+        </ul>
+        <p class="copyright">Copyright 2023 © Welcome to Algeria</p>
+    </footer>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/726e1f4ce8.js" crossorigin="anonymous"></script>
 
 </body>
-<footer>
-    <ul class="social-networks">
-        <li>
-            <a href="https://facebook.com" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://twitter.com" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="https://youtube.com" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="https://instagram.com" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
-        </li> 
-    </ul>
-    <p class="copyright">Copyright 2023 © Welcome to Algeria</p>
-</footer>
-<!-- Font awesome script -->
-<script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/726e1f4ce8.js" crossorigin="anonymous"></script>
+
 </html>

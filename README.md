@@ -102,7 +102,8 @@ The business goals of the Welcome to Algeria project are:
 ## Footer
 
  * Designwise, the footer is minimalistic with a grey color icons for the social media and play text for the copyrights
- * the icon are taken from Fontawesome in the <i> tag
+ * The icons are taken from Fontawesome in the <i> tag
+ * The icons link will open to a new tab for easier navigation
 
 ## Index 
 
@@ -172,6 +173,11 @@ The business goals of the Welcome to Algeria project are:
   3. Canva
      * To create a Logo 
 # Testing
+
+stray tag in the footer
+Too many descriptions
+id vs class
+map tested
 
 
 
