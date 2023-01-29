@@ -1,6 +1,6 @@
 # Welcome to Algeria 
 
-![home page](/workspace/Project-1-Welcome-to-Algeria/assets/css/images/screenshot-home-page.png)
+![Home Page screenshot](./assets/css/images/screenshot-home-page.png)
 
 Welcome to Algeria is an immersive travel website that offers the ultimate roadtrip experience through the Sahara desert. It features a video sample dipicting the Hoggar mountains in the home page as a background to immerse the traveler in the Sahara roadtrip adventure that the agency offers. Furthermore, the goal is to highlight Algeria as a touristic and welcoming country filled with unique adventures and stunning nature and not as the terrorist-ridden country the media portrays it to be. As social media influencers are nowadays the ones willing to go the extra mile for unique content, this project is tailored to attract these adventurous travel destinations influencers with a unique 3000km roadtrip across the Sahara desert filled with extreme sports, activities, heroic-type quests with the mysterious Tuaregs as their guides. As an immersive travel website, a minimal and clean designc with gamification core in mind has been maintained to help the traveler visualize not only their adventure as a grand accomplishment but also the content they will create for their platform and thus, marketing for the agency. 
 
@@ -65,6 +65,7 @@ Wireframes link: >>>
  * As the user gradually recieves more information about the roadtrip, the video background is paused up until the user is ready to contact the agency to book the trip
 
 ### Colors
+ ![Home Page colors](./assets/css/images/colors-used.png)
 
 * The colors chosen are sample colors from the video background to maintain a minimal aesthetic which highlights the earthy colors of the desert 
 * An accent warm orange color similar to the Tardart sand was chosen as a hover effect to mirror the sand dunes but also the color of the buildings in the sahara region 
@@ -76,6 +77,8 @@ Wireframes link: >>>
 * the images are displayed on a white background wrapper, with low opacity ,floating on top of a paused video-background to focus the eye of the user on the images
 
 ### Icons
+
+![Social Media icons](./assets/css/images/screenshot-socials.png)
 
 * Icons are taken from the Fontawesome Icon library and used in the <i> tag provided by Fontaesome
 * They are styles in dark grey or a bright orange depending on the hover function
