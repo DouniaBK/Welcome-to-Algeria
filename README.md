@@ -133,8 +133,8 @@ Wireframes were done using Figma.
 ## Gallery 
 
   * Responsive gallery display two to one column according to the screen size
-  * High-quality images portray certain aspects of the road trip to capture the user"s interest
-  * The gallery background videa has been paused to give priority to the images
+  * High-quality images portray certain aspects of the road trip to capture the user's interest
+  * The gallery has an image as background and not a video to give priority to the photos
 
 ## Information 
 
