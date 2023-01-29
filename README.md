@@ -192,8 +192,8 @@ The business goals of the Welcome to Algeria project are:
 
 ### Validation
 
-  * HTML has been validated with W3C HTML5 Validator.
-  * CSS has been validated with W3C CSS Validator and auto-prefixed with CSS Autoprefixer.
+  * HTML has been validated with W3C HTML5 Validator and no errors were found.
+  * CSS has been validated with W3C CSS Validator and no errors were found.
   
 
 ### Testing
@@ -206,17 +206,55 @@ The business goals of the Welcome to Algeria project are:
 
 ### **Mobile Testing**
 
-  * The site was tested personally on IOS and Android using Chrome and Safari going through all pages and functions.
+  * The site was tested personally on IOS and Android using Chrome and Safari going through all pages and functions
+  * The responsiveness has been adjusted for different screens including mobile screens
+  * The attribute *playsinline* has been added to the video background tag to play in mobile screens
   
 ### **Desktop Testing**
 
-   * The site was tested by different people on Chrome where it has innitially been developed.
+   * The site was tested by different people on Chrome where it has innitially been developed
+   * The site has continuously been tested on Edge by friends
 
-stray tag in the footer
-Too many descriptions
-id vs class
-map tested
-delete unecessary images
+### Accessibility
+ 
+  * The overall performance of the site has been tested using Lighthouse and the site has passed the accessibility test.
+
+    SCREENSHOT LIGHTHOUSE
+
+## Bugs
+
+ ### Known Bugs
+
+  * The video background takes 1.9s to load and even longer with slow connection
+
+ ### Fixed Bugs
+
+  * The gallery loaded really slowly so i compressed all the photos including the video background.
+  * The video background didnt play in mobile chrome and Safari so the attribute *playsinline* has been added to the video tag
+  * The bullet list item showed next to the footer icons in small screens so it was fixed by adjusting the media queries for small screens
+  * Navigation bar and the logo touched in small screens. Fixed by grouping them in one div and then adjusted the size in the media queries
+  * A logo subtitle was used at first but to maintain a minimalistic design in small screens as well, it has been removed
+  * The iframe link provided by google comes with style which interefered with the css styling. Fixed by removing all html style in the Iframe
+  * Icons didnt appear until multiple kits were added
+  
+
+# Deployment
+
+* The site was deployed to GitHub following the code institute video instructions
+   1. Go to the Settings page of the repository
+   2. Scroll down to the Github Pages section
+   3. Select the Master Branch as the source and Confirm the selection
+   4. After a minute or two and it should be live for viewing. [Your will find the link here](https://douniabk.github.io/Project-1-Welcome-to-Algeria/)
+
+# Credits and Contact
+
+### Content
+* Some of the information about the Algerian desert has been taken from [Zeribavoyage](https://www.zeribavoyage.com/circuit-desert-sahara/) and [algeria.com](https://www.algeria.com/)
+* The social media links code is from the Love Running project
+* The images and the video background have been taken from Pexels
+
+
+
 
 
 
