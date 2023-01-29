@@ -123,7 +123,7 @@ Wireframes were done using Figma.
   * The itinerary of the road trip with helpful information and images to help the traveler have an overview of the places they will visit.
   * The detailed plan of the trip is displayed as a guidebook on top of a white background with low opacity to focus the eye on the itinerary
   * the name of each town is accompanied by a location icon as a hint to encourage the user to click on the town names and be redirected to google map
-  * On the top right of the destinations, a header titled "Roadtrip Map (icon)" redirects the user to an embedded map with further details gives the user a clear overview of the route
+  * On the top right of the destinations, a header titled "Road trip Map (icon)" redirects the user to an embedded map with further details gives the user a clear overview of the route
 
 ## Map 
 
