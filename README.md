@@ -9,7 +9,9 @@ Welcome to Algeria is an immersive travel website that offers the ultimate roadt
     * Design
 2. Features
 3. Technologies
-4. Testing
+4. Methods
+    * Validation
+    * Testing
 5. Deployment
 6. Credit and Contacts
 
@@ -166,19 +168,35 @@ The business goals of the Welcome to Algeria project are:
  * IDE for project development.
 
 ### Other Tools
-  1. Figma
+  1. **Figma**
      * To create wireframes
-  2. Favicon Generator
+  2. **Favicon Generator**
      * to create a favicon
-  3. Canva
-     * To create a Logo 
-# Testing
+  3. **Canva**
+     * To create a logo 
+  4. **Pexels**
+     * To download free images
+  5. **Resizepixe**
+     * To resize images
+
+
+## Methods
+
+### Validation
+
+  * HTML has been validated with W3C HTML5 Validator.
+  * CSS has been validated with W3C CSS Validator and auto-prefixed with CSS Autoprefixer.
+  
+
+### Testing
 
 stray tag in the footer
 Too many descriptions
 id vs class
 map tested
 delete unecessary images
+
+
 
 
 
