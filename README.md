@@ -178,6 +178,7 @@ stray tag in the footer
 Too many descriptions
 id vs class
 map tested
+delete unecessary images
 
 
 

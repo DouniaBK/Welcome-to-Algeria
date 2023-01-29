@@ -122,7 +122,7 @@ body {
 
 .short-intro {
     align-self: center;
-    background-color: #ffffff9c;
+    background-color:#ffffffc7;
     width: 45%;
     min-width: 700px;
     max-width: 850px;
@@ -412,7 +412,6 @@ img {
     width: 100%;
 }
 
-
 /* information */
 
 
@@ -477,6 +476,11 @@ img {
     text-align: center;
     font-weight: 600;
     
+}
+
+.contact-p {
+    text-align: justify;
+    padding: 1rem;
 }
 
 .contact_input {
