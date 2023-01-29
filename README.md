@@ -141,30 +141,38 @@ The business goals of the Welcome to Algeria project are:
 
 ## Contact 
 
- ### contact section (add a Newsletter radio button on the form)
+ ### About us section
+  * a brief description of the expertese of the team welcoming and guiding the travelers in the desert to insure their safety and satisfaction.
+  * Minimal, transparent and professional design to inspire trust in the expert team organizing this roadtrip
+
+ ### Contact us section 
   * A simple form with minimalistic yet professional easthetic for a trustworthy impression of the agency
   * A radio button with a newsletter option to keep the user/customer informed about valuable and relevant promotions 
- ### About us section
-  * a brief description of the expertese of the team welcoming and guiding the travelers in the desert to insure their safety and gain their trust.
-  * Minimal, transparent and professional design to inspire trust in the expert team organizing this roadtrip
+  * Once the send button is pressed, the user is redirected to a page with a short thank you message.
+
 
 # Technologies
 
 ## languages
+  
+  ### HTML
+  * Page markup
+  ### CSS
+  * Styling
 
 ## Libraries
 
-### Google Fonts
+ ### Google Fonts
  * Font Styles.
 
-### Fontawesome
+ ### Fontawesome
  * Used for icons
 
 ## Platforms
 
-### Github
+ ### Github
  * Storing code remotely and deployment.
-### Gitpod
+ ### Gitpod
  * IDE for project development.
 
 ### Other Tools
@@ -189,6 +197,20 @@ The business goals of the Welcome to Algeria project are:
   
 
 ### Testing
+
+  * The site was sent to friends and mentor for feedback and testing
+  * Each fature was first tested on the developer tools before added to the VScode
+  * External links open in a new tab
+  * The form cannot be sent without an email address
+  * The images and video background have been compressed for better performance and faster loading time
+
+### **Mobile Testing**
+
+  * The site was tested personally on IOS and Android using Chrome and Safari going through all pages and functions.
+  
+### **Desktop Testing**
+
+   * The site was tested by different people on Chrome where it has innitially been developed.
 
 stray tag in the footer
 Too many descriptions
