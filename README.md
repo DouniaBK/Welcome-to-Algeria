@@ -1,10 +1,12 @@
-# Welcome to Algeria
+# Welcome to Algeria 
+
+![home page](/workspace/Project-1-Welcome-to-Algeria/assets/css/images/screenshot-home-page.png)
 
 Welcome to Algeria is an immersive travel website that offers the ultimate roadtrip experience through the Sahara desert. It features a video sample dipicting the Hoggar mountains in the home page as a background to immerse the traveler in the Sahara roadtrip adventure that the agency offers. Furthermore, the goal is to highlight Algeria as a touristic and welcoming country filled with unique adventures and stunning nature and not as the terrorist-ridden country the media portrays it to be. As social media influencers are nowadays the ones willing to go the extra mile for unique content, this project is tailored to attract these adventurous travel destinations influencers with a unique 3000km roadtrip across the Sahara desert filled with extreme sports, activities, heroic-type quests with the mysterious Tuaregs as their guides. As an immersive travel website, a minimal and clean designc with gamification core in mind has been maintained to help the traveler visualize not only their adventure as a grand accomplishment but also the content they will create for their platform and thus, marketing for the agency. 
 
 # Table of Contents
 
-1. UX
+1. User Experience
     * Goals
     * Design
 2. Features
@@ -12,11 +14,12 @@ Welcome to Algeria is an immersive travel website that offers the ultimate roadt
 4. Methods
     * Validation
     * Testing
-5. Deployment
-6. Credit and Contacts
+5. Bugs
+6. Deployment
+7. Credit and Contacts
 
 
-# UX Design Goals
+# User Experience
 
 ## Goals
 
@@ -44,57 +47,50 @@ The business goals of the Welcome to Algeria project are:
  * Promot the agency's unique roadtrip package
  * Gain subscribers and followers through the newsletter and social media accounts
  * Change the touristic profile of the country, previously labeled as "dangerous for visitors", to an image of a welcoming safe country full of untouched scenic nature, history and adventures.
-**
- * Exploring the different cities and nature reserves to visit
- * View the gallery photos 
- * Get an overview of the itinerary on the map
- * Contact the agency for enquiries and reservations
- * Plan their roadtrip
 
- ## Design Choices
+## Design Choices
 
- ### Wireframes
+### Wireframes
 
- Wireframes link: >>>
+Wireframes link: >>>
 
- ### Video Background: 
+### Video Background: 
 
  * The dramatic video background is set on autoplay looped and muted. It is a daring design choice meant to immerse the user in the desert to impresse and spark a sense of adventure in 
-   them. 
+   them 
  * this particular video background gives the feeling to the user that they are sitting in that moving vehicle looking ahead at this extraordinary Mars-like scene, envisioning the 
-   exploration journey they are about to embark in and chooses to play start. 
- * the background is also used as a marketing hook, letting the dramatic scene draw the client in. 
- * The clean minimalistic encourages the user to ask for more information and eventually booking the roatrip package. 
- * As the user gradually recieves more information about the roadtrip, the video background is paused up until the user is ready to contact the agency to book the trip.
+   exploration journey they are about to embark in and chooses to play start 
+ * the background is also used as a marketing hook, letting the dramatic scene draw the client in
+ * The clean minimalistic encourages the user to ask for more information and eventually booking the roatrip package 
+ * As the user gradually recieves more information about the roadtrip, the video background is paused up until the user is ready to contact the agency to book the trip
 
 ### Colors
 
-* The colors chosen are sample colors from the video background to maintain a minimal aesthetic which highlights the earthy colors of the desert. 
-* An accent warm orange color similar to the Tardart sand was chosen as a hover effect to mirror the sand dunes but also the color of the buildings in the sahara region. 
-* The text color is a dark grey inspired by the dark volcanic rock found in the Hoggar mountains to fit the desert theme and keep the minimalistic easthetic of the website. 
+* The colors chosen are sample colors from the video background to maintain a minimal aesthetic which highlights the earthy colors of the desert 
+* An accent warm orange color similar to the Tardart sand was chosen as a hover effect to mirror the sand dunes but also the color of the buildings in the sahara region 
+* The text color is a dark grey inspired by the dark volcanic rock found in the Hoggar mountains to fit the desert theme and keep the minimalistic easthetic of the website 
 
 ### Images
 
 * In the gallery the images are displayed in two columns responsively 
 * the images are displayed on a white background wrapper, with low opacity ,floating on top of a paused video-background to focus the eye of the user on the images
-* ..............
 
 ### Icons
 
-* Icons are taken from the Fontawesome Icon library and used in the <i> tag provided by Fontaesome.
+* Icons are taken from the Fontawesome Icon library and used in the <i> tag provided by Fontaesome
 * They are styles in dark grey or a bright orange depending on the hover function
-* Icons with minimal design are also used in the footer as social media account icons.
-* Some of the icons are nested in an <a> tag and used as links
+* Icons with minimal design are also used in the footer as social media account icons
+* Some of the icons are links that open in a different window and redirect to social media pages
 
 # Features
 
 ## Navigation
 
   * The navigation bar and the logo are grouped together, placed on top of floating white background with low opacity to mimic a cloud floating above the content giving it a sense of 
-    lightness and structure while maintaining a minimalist style.
-  * The navigation links are positionedto the right all linking to different sections of the web page.
-  * The navigation links are ordered in the common steps a user takes before booking a trip to enhance the user experience and encourages the user to book the trip.
-  * On smaller screens the navigation is made responsive.
+    lightness and structure while maintaining a minimalist style
+  * The navigation links are positionedto the right all linking to different sections of the web page
+  * The navigation links are ordered in the common steps a user takes before booking a trip to enhance the user experience and encourages the user to book the trip
+  * On smaller screens the navigation is made responsive
 
 ## Logo
 
@@ -119,13 +115,13 @@ The business goals of the Welcome to Algeria project are:
 
   * The itinerary of the roadtrip with helpful information and images to help the traveler have an overview of the places they will visit.
   * The detailed plan of the trip is displayed as a guidebook on top of a white background with low opacity to focus the eye on the itinerary
-  * the name of each town is accompanied with a location icon as a hint to encourage the user click on the town name and be redirected to google map.
-  * On the top right of the destinations, a header titled "Roadtrip Map (icon)" redirect the user to an embedded map with further details gives the user a clear overview of the route.
+  * the name of each town is accompanied with a location icon as a hint to encourage the user click on the town name and be redirected to google map
+  * On the top right of the destinations, a header titled "Roadtrip Map (icon)" redirect the user to an embedded map with further details gives the user a clear overview of the route
 
 ## Map 
 
   * A simple Iframe embedded map depicts the entirety of the 3288km route across the Sahara, gives the user a detailed overview of the roadtrip sparing them the need to do further research
-  * on the top right of the header section of the map, a link titled "Your itinerary" redirect the user back to the destinations proposed onthe itinerary. 
+  * on the top right of the header section of the map, a link titled "Your itinerary" redirect the user back to the destinations proposed onthe itinerary
 
 ## Gallery 
 
@@ -135,20 +131,20 @@ The business goals of the Welcome to Algeria project are:
 ## information 
 
  * This section helps the user prepare seamlessly for the trip with useful and clear informations/instructions about the different aspects of traveling to Algeria such as the necessary visa 
-   procedure and in the desert such camping, food, hygiene and so on.
+   procedure and in the desert such camping, food, hygiene and so on
  * The images included give a clear picture to what the user might expect during the roadtrip
- * A list of fun activities has also been added to encourage the user to book the trip . 
+ * A list of fun activities has also been added to encourage the user to book the trip  
 
 ## Contact 
 
  ### About us section
-  * a brief description of the expertese of the team welcoming and guiding the travelers in the desert to insure their safety and satisfaction.
+  * a brief description of the expertese of the team welcoming and guiding the travelers in the desert to insure their safety and satisfaction
   * Minimal, transparent and professional design to inspire trust in the expert team organizing this roadtrip
 
  ### Contact us section 
   * A simple form with minimalistic yet professional easthetic for a trustworthy impression of the agency
   * A radio button with a newsletter option to keep the user/customer informed about valuable and relevant promotions 
-  * Once the send button is pressed, the user is redirected to a page with a short thank you message.
+  * Once the send button is pressed, the user is redirected to a page with a short thank you message
 
 
 # Technologies
@@ -175,7 +171,8 @@ The business goals of the Welcome to Algeria project are:
  ### Gitpod
  * IDE for project development.
 
-### Other Tools
+## Other Tools
+
   1. **Figma**
      * To create wireframes
   2. **Favicon Generator**
@@ -188,15 +185,15 @@ The business goals of the Welcome to Algeria project are:
      * To resize images
 
 
-## Methods
+# Methods
 
-### Validation
+## Validation
 
   * HTML has been validated with W3C HTML5 Validator and no errors were found.
   * CSS has been validated with W3C CSS Validator and no errors were found.
   
 
-### Testing
+## Testing
 
   * The site was sent to friends and mentor for feedback and testing
   * Each fature was first tested on the developer tools before added to the VScode
@@ -204,30 +201,30 @@ The business goals of the Welcome to Algeria project are:
   * The form cannot be sent without an email address
   * The images and video background have been compressed for better performance and faster loading time
 
-### **Mobile Testing**
+## Mobile Testing
 
   * The site was tested personally on IOS and Android using Chrome and Safari going through all pages and functions
   * The responsiveness has been adjusted for different screens including mobile screens
   * The attribute *playsinline* has been added to the video background tag to play in mobile screens
   
-### **Desktop Testing**
+## Desktop Testing
 
    * The site was tested by different people on Chrome where it has innitially been developed
    * The site has continuously been tested on Edge by friends
 
-### Accessibility
+## Accessibility
  
-  * The overall performance of the site has been tested using Lighthouse and the site has passed the accessibility test.
+  * The overall performance of the site has been tested using Lighthouse and the site has passed the accessibility test
 
     SCREENSHOT LIGHTHOUSE
 
-## Bugs
+# Bugs
 
- ### Known Bugs
+ ## Known Bugs
 
   * The video background takes 1.9s to load and even longer with slow connection
 
- ### Fixed Bugs
+ ## Fixed Bugs
 
   * The gallery loaded really slowly so i compressed all the photos including the video background.
   * The video background didnt play in mobile chrome and Safari so the attribute *playsinline* has been added to the video tag
@@ -248,15 +245,11 @@ The business goals of the Welcome to Algeria project are:
 
 # Credits and Contact
 
-### Content
+## Content
 * Some of the information about the Algerian desert has been taken from [Zeribavoyage](https://www.zeribavoyage.com/circuit-desert-sahara/) and [algeria.com](https://www.algeria.com/)
 * The social media links code is from the Love Running project
 * The images and the video background have been taken from Pexels
 
+## Contact
 
-
-
-
-
-
-
+Feel free to contact me at douniazedbacha@gmail.com
