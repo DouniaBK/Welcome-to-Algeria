@@ -220,10 +220,10 @@ Wireframes were done using Figma.
    * The site has continuously been tested on Edge by friends
 
 ## Accessibility
- 
-  * The overall performance of the site has been tested using Lighthouse and the site has passed the accessibility test
 
-    SCREENSHOT LIGHTHOUSE
+![Site Perfomance Score](./assets/css/images/performance-lighthouse.png)
+
+  * The overall performance of the site has been tested using Lighthouse and the site has passed the accessibility test
 
 # Bugs
 
